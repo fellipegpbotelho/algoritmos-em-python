@@ -1,4 +1,6 @@
 """
+BUBBLE SORT
+
 A ideia do bubble sort é percorrer o array diversas vezes, e a cada passagem
 fazer flutuar para o topo o maior elemento da sequência.
 
