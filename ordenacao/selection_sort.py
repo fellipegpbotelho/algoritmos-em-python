@@ -9,6 +9,7 @@ Referências:
   - https://visualgo.net/bn/sorting
 """
 
+
 def selection_sort(items_list):
     for index in range(0, len(items_list)):
         min_index = index
@@ -21,4 +22,3 @@ def selection_sort(items_list):
 
 items_list = [9, 8, 7, 3, 4, 2, 1]
 print(selection_sort(items_list))
-

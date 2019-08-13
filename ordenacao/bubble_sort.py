@@ -13,16 +13,17 @@ Referências:
   - https://visualgo.net/bn/sorting
 """
 
-def sort(items_list):
-    for final in range(len(items_list), 0, -1):
+
+def sort(array):
+    for final in range(len(array), 0, -1):
         exchanging = False
-        for current in range(0, final - 1):
-            if items_list[current] > items_list[current + 1]:
-                items_list[current], items_list[current + 1] = items_list[current + 1], items_list[current]
+        for c in range(0, final - 1):
+            if array[c] > array[c + 1]:
+                array[c], array[c + 1] = array[c + 1], array[c]
                 exchanging = True
             if not exchanging:
                 break
-    return items_list
+    return array
 
 
 default_list = [8, 7, 5, 3, 1, 2, 9, 6, 4]
